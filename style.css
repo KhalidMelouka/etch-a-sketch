@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=VT323&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'VT323', monospace;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+p {
+    font-family: sans-serif;
+}
+.title {
+    width: 100%;
+    text-align: center; 
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap; 
+    border: solid 1px black;
+    background-color: rgba(236, 236, 236, 0.8);
+    flex-shrink: 0;
+}
+
+
+.carcas {
+    width: 500px;
+    height: 550px;
+    padding: 80px 50px;
+    margin: 0px;
+    background-color:white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition:  .5s;
+    border: solid 3px black;  
+}
+.carcas:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 1px black;
+    border: solid 1px black;
+}
+.buttons {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+button {
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 0px black;
+}
+.slider-container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 15px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border: solid 1px black;
+    transition: .2s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.219);
+    
+}
+
+
+.grid-status {
+    background-color: rgba(236, 236, 236, 0.8);
+    border: solid 1px black;
+    box-shadow: 2px 2px 0px black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 100;
+}

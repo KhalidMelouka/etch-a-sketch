@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+    <link rel="icon" href="images/etch-a-sketch-logo.png"> 
+</head>
+<body>
+    <div class="carcas">
+       <h2 class="title">Etch a Sketch</h2>
+        <div class="container"></div>
+        <div class="slider-container">
+            <input class= "slider" type="range" min="5" value="5" max="64">
+            <div class="grid-status">0x0</div>
+        </div>
+       
+        <div class="buttons">
+            <button class="eraser">Eraser</button>
+            <button class="random-colors">Colorful</button>
+            <button class="black">Black</button>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+    
+    <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        Khalid Melouka        
+    </p>
+        
+
+    
+    <script src="app.js" defer></script>
+</body>
+</html>
